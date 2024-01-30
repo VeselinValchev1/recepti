@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="recipe-container">
+    
+    <div class="recipe-card" onclick="showRecipe('recipe1')">
+      <img src="download.jpg" alt="Spaghetti Carbonara">
+      <h3>Spaghetti Carbonara</h3>
+    </div>
+
+    
+    <div class="recipe-card" onclick="showRecipe('recipe2')">
+      <img src="grilled 3.jpg"Grilled Chicken Salad>
+      <h3>Grilled Chicken Salad</h3>
+    </div>
+
+    <div class="recipe-card" onclick="showRecipe('recipe3')">
+      <img src="cookie.jpg" alt="Chocolate Chip Cookies">
+      <h3>Chocolate Chip Cookies</h3>
+    </div>
+  </div>
+
+ 
+  <div id="recipe1" class="recipe-popup">
+    <span class="close-btn" onclick="hideRecipe('recipe1')">&times;</span>
+    <h2>Spaghetti Carbonara</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+      <li>400g (14 oz) spaghetti</li>
+      <li>150g (5 oz) pancetta or guanciale, diced</li>
+      <li>3 large eggs</li>
+      <li>1 cup (about 100g) grated Pecorino Romano cheese</li>
+      <li>1 clove garlic, peeled</li>
+      <li>Freshly ground black pepper</li>
+      <li>Salt to taste</li>
+      <li>Chopped fresh parsley for garnish (optional)</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <p>Follow the instructions mentioned earlier for Spaghetti Carbonara.</p>
+  </div>
+
+  
+  <div id="recipe2" class="recipe-popup">
+    <span class="close-btn" onclick="hideRecipe('recipe2')">&times;</span>
+    <h2>Grilled Chicken Salad</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+      <li>2 boneless, skinless chicken breasts</li>
+      <li>Salt and pepper to taste</li>
+      <li>1 tablespoon olive oil</li>
+      <li>Mixed salad greens (lettuce, spinach, arugula)</li>
+      <li>Cherry tomatoes, halved</li>
+      <li>Cucumber, sliced</li>
+      <li>Red onion, thinly sliced</li>
+      <li>Balsamic vinaigrette dressing</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <p>Follow the instructions mentioned earlier for Grilled Chicken Salad.</p>
+  </div>
+
+  
+  <div id="recipe3" class="recipe-popup">
+    <span class="close-btn" onclick="hideRecipe('recipe3')">&times;</span>
+    <h2>Chocolate Chip Cookies</h2>
+    <h3>Ingredients:</h3>
+    <ul>
+      <li>1 cup (2 sticks) unsalted butter, softened</li>
+      <li>3/4 cup granulated sugar</li>
+      <li>3/4 cup packed brown sugar</li>
+      <li>2 large eggs</li>
+      <li>1 teaspoon vanilla extract</li>
+      <li>2 1/4 cups all-purpose flour</li>
+      <li>1 teaspoon baking soda</li>
+      <li>1/2 teaspoon salt</li>
+      <li>2 cups semisweet chocolate chips</li>
+    </ul>
+    <h3>Instructions:</h3>
+    <p>Follow the instructions mentioned earlier for Chocolate Chip Cookies.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
